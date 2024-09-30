@@ -4,9 +4,8 @@
   --sidebar-size-end: auto;
   --content-max-size: 1fr;
   box-sizing: border-box;
-  min-height: 100vh;
+  min-height: 100dvh;
   display: grid;
-  grid-template-rows: auto 1fr;
   grid-template-columns: 100%;
 }
 
@@ -145,7 +144,7 @@
 
   .person-page__avatar {
     position: sticky;
-    top: calc(var(--is-header-fixed) * var(--header-height) * 1px);
+    top: calc(var(--header-height) * 1px);
     transition: top 0.6s;
   }
 
